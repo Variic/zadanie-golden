@@ -1,6 +1,14 @@
 /* GLOBAL */
 
+.container{
+  width: 940px;
+}
 
+/* NAVIGATION*/
+
+.navbar-logo{
+  padding: 44px 0 44px 0;
+}
 
 /* MAIN BANNER */
 
@@ -20,5 +28,4 @@
 .banner-item img{
     height: 100%;
     object-fit: cover;
-    opacity: 40%;
 }
