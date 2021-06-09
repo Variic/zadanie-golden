@@ -1,2 +1,18 @@
+/* GLOBAL */
+/* MAIN BANNER */
+.main-banner-inner {
+  height: 100vh;
+  background: #333333;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.banner-item {
+  height: 100vh;
+}
+
+.banner-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 40%;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBSUEsZ0JBQUE7QUFNQTtFQUNFLGFBQWE7RUFDYixtQkFBbUI7QUNQckI7O0FEVUE7RUFDRSxhQUFhO0FDUGY7O0FEVUE7RUFDSSxZQUFZO0VBQ1osb0JBQWlCO0tBQWpCLGlCQUFpQjtFQUNqQixZQUFZO0FDUGhCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
