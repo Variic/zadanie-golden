@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,23 +18,107 @@
   <body>
 
 <!-- NAVIGATION -->
-    <nav class="navbar fixed-top navbar-expand-md">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 navbar-logo">
-            <img src="/images/logo_golden.png" alt="image">
+<nav class="navbar fixed-top navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="/images/logo_golden.png" alt="logo_golden">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto w-100 justify-content-end">
+        <li class="nav-item active nav-menu-element">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- MAIN BANNER -->
+<div id="main-banner">
+  <div class="banner-inner">
+    <div class="banner-item">
+      <img class="w-100" src="/images/main_banner.jpg" alt="main_banner">
+      <div class="carousel-caption">
+        <h4 class="banner-small-text">Welcome To Our Studio!</h4>
+        <h3 class="banner-big-text">It’s nice to Meet you</h3>
+        <a class="btn btn-primary btn-banner" href=#>Tell me more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+
+<section py-5>
+  <div class="container information">
+
+    <div class="section-titles col-md-12">
+      <h3 class="section-big-text">Services</h3>
+      <h4 class="section-small-text">Proin iaculis purus consequat sem cure. </h4>
+    </div>
+
+    <div class="row">
+      <div class="col col-md-4">
+        <div class="card p-3 mb-3">
+          <div class="row inner-row">
+            <div>
+                <div class="card-body">
+                    <i class="fas fa-shopping-basket"></i>
+                    <h3 class="block-big-text">E-Commerce</h3>
+                    <p class="block-small-text">Proin iaculis purus consequat sem cure
+                    digni ssim. Donec porttitora entum suscipit
+                    aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </div>
           </div>
         </div>
       </div>
-    </nav>
-<!-- MAIN BANNER -->
-    <div class="main-banner">
-      <div class="main-banner-inner">
-        <div class="banner-item">
-          <img class="w-100" src="/images/main_banner.jpg" alt="image">
+
+      <div class="col col-md-4">
+        <div class="card p-3 mb-3">
+          <div class="row inner-row">
+            <div>
+                <div class="card-body">
+                    <i class="fas fa-laptop"></i>
+                    <h3 class="block-big-text">Responsive Web</h3>
+                    <p class="block-small-text">Proin iaculis purus consequat sem cure
+                    digni ssim. Donec porttitora entum suscipit
+                    aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="col col-md-4">
+        <div class="card p-3 mb-3">
+          <div class="row inner-row">
+            <div>
+                <div class="card-body">
+                    <i class="fas fa-lock"></i>
+                    <h3 class="block-big-text">Web Security</h3>
+                    <p class="block-small-text">Proin iaculis purus consequat sem cure
+                    digni ssim. Donec porttitora entum suscipit
+                    aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
+</section>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
