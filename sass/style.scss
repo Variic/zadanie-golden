@@ -13,27 +13,6 @@ $font-header-2: 'Noto Serif', serif;
 
 /* NAVIGATION*/
 
-.navbar{
-  padding: 44px 0;
-}
-
-.navbar .navbar-brand {
-  font-size: 30px;
-}
-
-.navbar .nav-item {
-  padding: 10px 10px;
-}
-
-.navbar .nav-link {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-left: 10px;
-  color: $color-one;
-  font-family: $font-header-1;
-}
 
 /* MAIN BANNER */
 
@@ -86,7 +65,7 @@ $font-header-2: 'Noto Serif', serif;
 }
 
 .btn-banner:hover{
-  border: 2px solid #fed136;
+  box-shadow: inset 0px 0px 0px 2px #fed136;
   background: none;
   color: #ffffff;
   cursor: pointer;
