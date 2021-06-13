@@ -8,67 +8,37 @@ $font-text: 'Roboto Slab', serif;
 $font-header-1: 'Montserrat', sans-serif;
 $font-header-2: 'Noto Serif', serif;
 
-.container{
-  width: 940px;
-}
-
 /* NAVIGATION*/
 
-.logo {
-      line-height: 60px;
-      position: fixed;
-      float: left;
-      margin: 16px 46px;
-      color: #fff;
-      font-weight: bold;
-      font-size: 20px;
-      letter-spacing: 2px;
+.navbar .navbar-brand {
+  margin: 44px 0;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.fa-bars {
+  color: #ffffff;
+  font-size: 30px;
 }
 
-nav {
-      position: fixed;
-      width: 100%;
-      line-height: 60px;
+.bg-dark{
+background-color: #343435e6!important;
 }
 
-nav ul {
-      line-height: 60px;
-      list-style: none;
-      background: rgba(0, 0, 0, 0);
-      overflow: hidden;
-      color: #fff;
-      padding: 0;
-      text-align: right;
-      margin: 0;
-      padding-right: 40px;
-      transition: 1s;
+.nav-link{
+  color: #ffffff;
+  font-family: $font-header-1;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
-nav.black ul {
-      background: #000;
-}
-
-nav ul li {
-      display: inline-block;
-      padding: 16px 40px;;
-}
-
-nav ul li a {
-      text-decoration: none;
-      color: #fff;
-      font-size: 16px;
-}
-
-.menu-icon {
-      line-height: 60px;
-      width: 100%;
-      background: #000;
-      text-align: right;
-      box-sizing: border-box;
-      padding: 15px 24px;
-      cursor: pointer;
-      color: #fff;
-      display: none;
+.nav-link:hover{
+  color: #fed136;
 }
 
 /* MAIN BANNER */
@@ -270,38 +240,47 @@ footer i:hover{
 
 /* MOBILE WERSION ------------------------------ */
 
-/* NAVBAR */
+@media (max-width: 768px){
+  .copywright{
+    padding-bottom: 30px;
+    text-align: center;
+  }
 
-@media(max-width: 786px) {
+  .footer-child{
+    text-align: center;
+    padding: 0px;
+  }
 
-      .logo {
-            position: fixed;
-            top: 0;
-            margin-top: 16px;
-      }
+  .banner-small-text{
+    font-size: 26px;
+  }
 
-      nav ul {
-            max-height: 0px;
-            background: #000;
-      }
+  .banner-big-text{
+    font-size: 40px;
+  }
 
-      nav.black ul {
-            background: #000;
-      }
+  .btn-banner{
+    font-size: 14px;
+  }
 
-      .showing {
-            max-height: 34em;
-      }
+  .navbar .navbar-brand {
+    margin: 20px 0;
+  }
+}
 
-      nav ul li {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 24px;
-            text-align: center;
-      }
 
-      .menu-icon {
-            display: block;
-      }
+@media (min-width: 768px)and(max-width: 991px){
+  .copywright{
+    padding-bottom: 30px;
+    text-align: center;
+  }
 
+  .footer-child{
+    text-align: center;
+    padding: 0px;
+  }
+
+  .navbar .navbar-brand {
+    margin: 20px 0;
+  }
 }
